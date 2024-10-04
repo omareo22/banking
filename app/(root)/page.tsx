@@ -6,7 +6,7 @@ const Home = () => {
 
     const loggedIn = {firstName: 'Omar'}
   return (
-    <section className='home'>Home
+    <section className='home'>
         <div className='home-content'>
             <header className='home-header'>
                 <HeaderBox
