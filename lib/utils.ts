@@ -203,7 +203,7 @@ export const authFormSchema = (type:string) => z.object({
   address1: type === 'sign-in' ? z.string().optional():  z.string().max(50),
   city: type === 'sign-in' ? z.string().optional():  z.string().max(50),
   state: type === 'sign-in' ? z.string().optional():  z.string().min(2).max(2),
-  zipCode: type === 'sign-in' ? z.string().optional():  z.string().min(3).max(6),
+  postalCode: type === 'sign-in' ? z.string().optional():  z.string().min(3).max(6),
   dateOfBirth: type === 'sign-in' ? z.string().optional():  z.string().min(3),
   socialSecurityNumber: type === 'sign-in' ? z.string().optional():  z.string().min(3),
   //sign in and sign up
